@@ -1,0 +1,1 @@
+{"version":3,"file":"sample-single-item.module.js","sourceRoot":"","sources":["../../src/sampleactivity/sample-single-item.module.ts"],"names":[],"mappings":";;AAAA,sCAAyC;AACzC,wCAA6C;AAC7C,oGAA+F;;;;;gBAE9F,eAAQ,SAAC;oBACN,OAAO,EAAE;wBACL,mBAAW;qBACd;oBACD,YAAY,EAAE,CAAC,qEAA+B,CAAC;oBAC/C,eAAe,EAAE,CAAC,qEAA+B,CAAC;iBACrD;;iCAVD;;AAWa,wDAAsB"}
