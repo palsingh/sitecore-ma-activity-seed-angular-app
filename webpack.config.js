@@ -23,6 +23,9 @@ module.exports = {
     externals: [
         "@sitecore/ma-core",
         "@angular/core",
+        "@angular/common",
+        "@angular/forms",
+        "@angular/http",
         "@ngx-translate/core"
     ]
 };
