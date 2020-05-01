@@ -11,7 +11,7 @@
     "webpack": "webpack",
     "build": "npm run dev && npm run webpack",
     "publish": "copyfiles -f ./dist/sample.plugin.js C:/inetpub/wwwroot/<SITECORE_INSTANCE>/sitecore/shell/client/Applications/MarketingAutomation/plugins/",
-    "buildandpublish": "npm rum build && npm run publish"
+    "buildandpublish": "npm run build && npm run publish"
   },
   "dependencies": {
     "@angular/common": "5.2.11",
@@ -27,6 +27,7 @@
     "zone.js": "0.8.4"
   },
   "devDependencies": {
+    "copyfiles": "2.2.0",
     "rimraf": "3.0.2",
     "ts-loader": "4.4.2",
     "typescript": "2.5.3",
