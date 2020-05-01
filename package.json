@@ -1,0 +1,38 @@
+{
+  "name": "sitecore-marketing-automation-sample-plugin",
+  "version": "1.0.0",
+  "description": "A sample seed project to create Sitecore Marketing Automation activity plugin",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ngc -p ./src/tsconfig.aot.json",
+    "postdev": "rimraf ./codegen && npm run rename && ngc -p ./src/tsconfig.aot.json && rimraf ./codegen-temp",
+    "rename": "node -e \"require('fs').rename('./codegen-temp', './codegen', function(err) { if (err) console.log(err); console.log('Folder successfully renamed!') })\"",
+    "webpack": "webpack",
+    "build": "npm run dev && npm run webpack",
+    "publish": "copyfiles -f ./dist/sample.plugin.js C:/inetpub/wwwroot/<SITECORE_INSTANCE>/sitecore/shell/client/Applications/MarketingAutomation/plugins/",
+    "buildandpublish": "npm rum build && npm run publish"
+  },
+  "dependencies": {
+    "@angular/common": "5.2.11",
+    "@angular/compiler": "5.2.11",
+    "@angular/compiler-cli": "5.2.11",
+    "@angular/core": "5.2.11",
+    "@angular/forms": "5.2.11",
+    "@angular/http": "5.2.11",
+    "@angular/platform-browser": "5.2.11",
+    "@ngx-translate/core": "9.0.2",
+    "@sitecore/ma-core": "C:/inetpub/wwwroot/<SITECORE_INSTANCE>/sitecore/shell/client/Applications/MarketingAutomation/packages/ma-core",
+    "rxjs": "5.5.11",
+    "zone.js": "0.8.4"
+  },
+  "devDependencies": {
+    "rimraf": "3.0.2",
+    "ts-loader": "4.4.2",
+    "typescript": "2.5.3",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11"
+  },
+  "author": "Jaspal Singh <pal.singh1989@gmail.com>",
+  "license": "ISC"
+}
