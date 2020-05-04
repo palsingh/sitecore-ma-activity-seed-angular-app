@@ -3,6 +3,10 @@
 ### Description
 This is a seed project for creating UI for Sitecore's Marketing Automation custom activity UI. It has things pre-configurerd, so you can focus on implementation rather than doing complicated setup.
 
+## Dependencies
+- Node v6.9.1
+- NPM v3.10.10
+
 ## How to's
 
 ### Configure as per your Sitecore instance
