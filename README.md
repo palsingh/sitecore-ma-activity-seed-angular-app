@@ -29,6 +29,5 @@ This is a seed project for creating UI for Sitecore's Marketing Automation custo
 
 https://doc.sitecore.com/developers/90/sitecore-experience-platform/en/add-an-activity-type-to-the-marketing-automation-ui.html
 
-## Author
-Jaspal Singh
-<pal.singh1989@gmail.com>
+## License
+MIT
