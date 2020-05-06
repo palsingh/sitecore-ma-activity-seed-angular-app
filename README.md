@@ -1,7 +1,7 @@
 # Seed NPM project for Sitecore Marketing Automation custom activity UI
 
 ### Description
-This is a seed project for creating UI for Sitecore's Marketing Automation custom activity UI. It has things pre-configurerd, so you can focus on implementation rather than doing complicated setup.
+This is a seed project for creating UI for Sitecore's Marketing Automation custom activity UI. It has things pre-configurerd, so you can focus on implementation rather than doing complicated setup. Before you start development using this seed app, delete the codegen and dist folder, they are there just to represent how it will look like after you have build your code.
 
 ## Dependencies
 - Node v6.9.1
